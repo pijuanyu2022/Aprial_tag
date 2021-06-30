@@ -7,3 +7,5 @@ https://github.com/AprilRobotics/apriltag-generation
 https://github.com/AprilRobotics/apriltag-imgs
 
 https://github.com/YuehChuan/tb3_aprilTag
+
+https://github.com/AprilRobotics/apriltag_ros
