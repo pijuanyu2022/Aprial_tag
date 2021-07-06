@@ -17,6 +17,8 @@ Step1: roscore
 
 Step2: source ~/catkin_april/devel_isolated/setup.bash
 
+Step3: roslaunch usb_cam usb_cam-test.launch
+
 Step3: roslaunch apriltag_ros continuous_detection.launch
 
 Step4: rqt_image_view
