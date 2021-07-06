@@ -15,7 +15,7 @@ https://github.com/sbhatti915/Hospital-Guide-Robot-Mobile-Robotics-Project-
 
 Step1: roscore
 
-Step2: source ~/catkin_april/devel_isolated/setup.
+Step2: source ~/catkin_april/devel_isolated/setup.bash
 
 Step3: roslaunch apriltag_ros continuous_detection.launch
 
@@ -29,7 +29,7 @@ Step6: rostopic echo /tf
 USB: 
 
 
-Step1: source ~/catkin_web/devel/setup.bashcali
+Step1: source ~/catkin_web/devel/setup.bash
 
 Step2: roslaunch usb_cam usb_cam-test.launch
 
