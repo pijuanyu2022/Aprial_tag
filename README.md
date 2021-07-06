@@ -34,3 +34,7 @@ Step1: source ~/catkin_web/devel/setup.bash
 Step2: roslaunch usb_cam usb_cam-test.launch
 
 Step3: rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.023 image:=/usb_cam/image_raw camera:=/usb_cam
+
+
+Real Sense
+roslaunch realsense2_camera rs_camera.launch
