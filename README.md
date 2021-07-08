@@ -25,6 +25,8 @@ Step5: select "/tag_detections_image"
 
 Step6: rostopic echo /tf
 
+Step7: rostopic hz /camera/infra1/image_rect_raw
+
 
 USB: 
 
