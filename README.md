@@ -37,4 +37,6 @@ Step3: rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.023 i
 
 
 Real Sense
+https://roboticslab-uc3m.github.io/installation-guides/install-realsense2.html
+
 roslaunch realsense2_camera rs_camera.launch
