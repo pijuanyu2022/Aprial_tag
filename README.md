@@ -44,3 +44,5 @@ https://roboticslab-uc3m.github.io/installation-guides/install-realsense2.html
 roslaunch realsense2_camera rs_camera.launch
 
 realsense-viewer
+
+rosrun rqt_reconfigure rqt_reconfigure
