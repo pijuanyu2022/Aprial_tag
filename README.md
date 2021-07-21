@@ -46,3 +46,5 @@ roslaunch realsense2_camera rs_camera.launch
 realsense-viewer
 
 rosrun rqt_reconfigure rqt_reconfigure
+
+ssh omnid@omnid1
