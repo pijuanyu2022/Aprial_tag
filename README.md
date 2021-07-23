@@ -44,6 +44,8 @@ https://roboticslab-uc3m.github.io/installation-guides/install-realsense2.html
 Step1: source ~/catkin_real/devel/setup.bash
 
 roslaunch realsense2_camera rs_camera.launch
+roslaunch realsense2_camera rs_t265.launch
+
 
 realsense-viewer
 
