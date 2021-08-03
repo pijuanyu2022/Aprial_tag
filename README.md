@@ -41,6 +41,11 @@ Step9: rqt_image_view
 
 
 
+
+
+
+
+
 APRIL TAG 
 Step1: roscore
 
