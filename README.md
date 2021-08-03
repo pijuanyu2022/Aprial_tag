@@ -34,11 +34,9 @@ Step8: roslaunch apriltag_ros continuous_detection_fish2s_d.launch
 
 Step9: rqt_image_view
 
-
-
-
-
-
+-------------
+-------------
+-------------
 
 
 
@@ -47,6 +45,7 @@ Step9: rqt_image_view
 
 
 APRIL TAG 
+
 Step1: roscore
 
 Step2: source ~/catkin_april/devel_isolated/setup.bash
