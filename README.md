@@ -12,7 +12,36 @@ https://github.com/AprilRobotics/apriltag_ros
 
 https://github.com/sbhatti915/Hospital-Guide-Robot-Mobile-Robotics-Project-
 
+https://github.com/thien94/vision_to_mavros
 
+Quickstart:
+
+Step1: source ~/catkin_real/devel/setup.bash
+
+Step2: roslaunch realsense2_camera rs_t265.launch
+
+Step3: source ~/catkin_april/devel_isolated/setup.bash
+
+Step4: roslaunch test_pkg  t265_fisheye_undistort.launch
+
+Step5: source ~/catkin_april/devel_isolated/setup.bash
+
+Step6: roslaunch apriltag_ros continuous_detection_fish1s_d.launch
+
+Step7: source ~/catkin_april/devel_isolated/setup.bash
+
+Step8: roslaunch apriltag_ros continuous_detection_fish2s_d.launch
+
+Step9: rqt_image_view
+
+
+
+
+
+
+
+
+APRIL TAG 
 Step1: roscore
 
 Step2: source ~/catkin_april/devel_isolated/setup.bash
@@ -53,3 +82,7 @@ realsense-viewer
 rosrun rqt_reconfigure rqt_reconfigure
 
 ssh omnid@omnid1
+
+
+
+
