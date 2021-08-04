@@ -34,7 +34,7 @@ Step8: roslaunch apriltag_ros continuous_detection_fish2s_d.launch
 
 Step9: rqt_image_view
 
-Step10: roslaunch rtabmap_ros rtabmap.launch    args:="-d --Rtabmap/ImagesAlreadyRectified true --Mem/UseOdomGravity true --Optimizer/GravitySigma 0.3"    stereo:=true    left_image_topic:=/camera/fisheye1/rect/mage   right_image_topic:=/camera/fisheye2/rect/image_raw    left_camera_info_topic:=/camera/fisheye1/rect/camera_info    right_camera_info_topic:=/camera/fisheye2/rect/camera_info    visual_odometry:=false    odom_frame_id:=camera_odom_frame
+Step10: roslaunch rtabmap_ros rtabmap.launch    args:="-d --Rtabmap/ImagesAlreadyRectified true --Mem/UseOdomGravity true --Optimizer/GravitySigma 0.3"    stereo:=true    left_image_topic:=/camera/fisheye1/rect/image   right_image_topic:=/camera/fisheye2/rect/image   left_camera_info_topic:=/camera/fisheye1/rect/camera_info    right_camera_info_topic:=/camera/fisheye2/rect/camera_info    visual_odometry:=false    odom_frame_id:=camera_odom_frame
 
 -------------
 -------------
