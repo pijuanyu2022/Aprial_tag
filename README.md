@@ -14,6 +14,8 @@ https://github.com/sbhatti915/Hospital-Guide-Robot-Mobile-Robotics-Project-
 
 https://github.com/thien94/vision_to_mavros
 
+https://github.com/introlab/rtabmap/issues/459
+
 Quickstart:
 
 Step1: source ~/catkin_real/devel/setup.bash
