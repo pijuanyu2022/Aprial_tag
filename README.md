@@ -48,6 +48,15 @@ Step10: roslaunch rtabmap_ros rtabmap.launch \
 
 -------------
 -------------
+$ python camera_info_pub.py \
+   _url:=/home/pyu2020/Documents/RTAB-Map/camera_info/t265_left.yaml \
+   image:=/camera/fisheye1/image_raw \
+   camera_info:=/camera/fisheye1/camera_info_calib
+$ python camera_info_pub.py \
+   _url:=/home/pyu2020/Documents/RTAB-Map/camera_info/t265_right.yaml \
+   image:=/camera/fisheye2/image_raw \
+   camera_info:=/camera/fisheye2/camera_info_calib
+
 -------------
 
 
