@@ -44,7 +44,9 @@ Step10: roslaunch rtabmap_ros rtabmap.launch \
    left_camera_info_topic:=/camera/fisheye1/rect/camera_info \
    right_camera_info_topic:=/camera/fisheye2/rect/camera_info \
    visual_odometry:=false \
-   odom_frame_id:=camera_odom_frame
+   odom_frame_id:=camera_odom_frame \
+   rviz:=true \
+   rtabmapviz:=false
 
 -------------
 -------------
@@ -64,6 +66,8 @@ $ python camera_info_pub.py \
 
 Step1: 
 
+source ~/catkin_real/devel/setup.bash
+
 roslaunch realsense2_camera rs_camera.launch \
     align_depth:=true \
     unite_imu_method:="linear_interpolation" \
@@ -72,6 +76,8 @@ roslaunch realsense2_camera rs_camera.launch \
      
      
 Step2: 
+
+source ~/catkin_april/devel_isolated/setup.bash
 
 rosrun imu_filter_madgwick imu_filter_node \
     _use_mag:=false \
@@ -82,6 +88,8 @@ rosrun imu_filter_madgwick imu_filter_node \
     
 Step3: 
 
+source ~/catkin_rtab/devel/setup.bash
+
 roslaunch rtabmap_ros rtabmap.launch \
     rtabmap_args:="--delete_db_on_start --Optimizer/GravitySigma 0.3" \
     depth_topic:=/camera/aligned_depth_to_color/image_raw \
@@ -89,7 +97,9 @@ roslaunch rtabmap_ros rtabmap.launch \
     camera_info_topic:=/camera/color/camera_info \
     approx_sync:=false \
     wait_imu_to_init:=true \
-    imu_topic:=/rtabmap/imu
+    imu_topic:=/rtabmap/imu \
+    rviz:=true \
+    rtabmapviz:=false
 
 
 
