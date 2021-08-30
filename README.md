@@ -100,8 +100,11 @@ roslaunch rtabmap_ros rtabmap.launch \
     imu_topic:=/rtabmap/imu \
     rviz:=true \
     rtabmapviz:=false
-
-
+    
+    
+    
+ ---
+ roslaunch hector_slam_launch tutorial.launch
 
 
 
