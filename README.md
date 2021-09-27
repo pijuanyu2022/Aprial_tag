@@ -152,6 +152,9 @@ rosrun rqt_reconfigure rqt_reconfigure
 
 ssh omnid@omnid1
 
+xhost +
+ssh omnid@omnid3 -Y
+
 
 
 
